@@ -1,3 +1,37 @@
-{
-    "liveServer.settings.port": 5501
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur d'Orages</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="stormCanvas"></canvas>
+
+    <script>
+        // Votre code JavaScript pour le simulateur d'orages
+        // Vous pouvez utiliser des bibliothèques comme p5.js pour simplifier la création graphique.
+        // Par exemple, p5.js offre des fonctions faciles pour le dessin et l'animation.
+
+        // Exemple avec p5.js :
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            // Initialisez votre simulateur ici
+        }
+
+        function draw() {
+            background(0); // Fond noir
+            // Dessinez les éclairs, la pluie, etc.
+        }
+    </script>
+</body>
+</html>
